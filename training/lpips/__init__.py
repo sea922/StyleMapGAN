@@ -8,6 +8,7 @@ from __future__ import print_function
 
 import numpy as np
 from skimage import measure
+import torch
 from torch.autograd import Variable
 
 from . import dist_model
