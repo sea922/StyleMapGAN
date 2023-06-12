@@ -13,7 +13,7 @@ Link paper: https://arxiv.org/abs/2104.14754 <br>
 Clone this repository:
 
 ```bash
-git clone 
+git clone https://github.com/siidev/StyleMapGAN.git
 cd StyleMapGAN/
 ```
 
@@ -39,7 +39,7 @@ https://drive.google.com/drive/folders/1eZ2JXSVi-NpZvaBOliLWKnm4Uf_WKdIq?usp=sha
 ## Demo
 Upload LMDB datasets and pre-trained weights you downloaded to your google drive. <br>
 Run the following notebook on Colab: <br>
-https://colab.research.google.com/drive/1hFqHZZpd1tZL_Po5Z8rsR7EF4YyFYSQ4?usp=sharing
+https://colab.research.google.com/drive/1Vn-tvEYpQ0BSUC1z06ifIEFs90q5doRx?usp=sharing
 
 ## Train network
 Train network with small generator
@@ -63,11 +63,11 @@ python train.py --dataset afhq --train_data lmdb-data/afhq/train --val_data lmdb
 If you want to see more details, please follow the official file `metrics/README.md`.<br>
 Or you can run the following notebooks:<br>
 * VN-Celeb
-https://colab.research.google.com/drive/1VSJX35k_bGhxNSlIGb3u2d1oRh3_DfIZ?usp=sharing
+
 * CelebA-HQ
-https://colab.research.google.com/drive/1coWv9sI5lh3AS6fAYDHbAYJMaWX9fAhv?usp=sharing
+
 * AFHQ
-https://colab.research.google.com/drive/1kPu7SQ00vC5dx0W4K8_feeP81gLzlUIH?usp=sharing
+
 
 ## License
 (Official Repo) <br>
